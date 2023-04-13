@@ -11,7 +11,7 @@ flex-direction: row;
 justify-content: space-around;
 background-color: #111111;
 color: #ffffff;
-position: fixed;
+position: relative;
 bottom: 0;
 }
 #footerbox{
@@ -20,7 +20,6 @@ flex-direction: row;
 justify-content: space-between;
 width: 76vw;
 height: 35vh;
-position: fixed;
 bottom: 7vh;
 border-bottom: 0.5px solid;
 border-color: gray;
@@ -132,9 +131,7 @@ font-size: 13px;
     color: gray;
 
 }
-=======
-    
-}
+
 
 body{
     height: 100%;
