@@ -133,3 +133,158 @@ font-size: 13px;
     color: gray;
 
 }
+=======
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    background-color: black;
+}
+
+/*lisa-Navbar*/ 
+
+.navG {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5em;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: grey;
+    font-size: medium;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.nav-Gray-Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid rgb(81, 255, 0);
+    height: 3em;
+    width: 100vw;
+    background-color: gray;
+    color: white;
+    font-size: medium;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.nav-RAZER-BLADE-16 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    height: 4em;
+    width: 100vw;
+    border-bottom: 1px solid white
+}
+
+.razer16 {
+    padding-right: 60%;
+    font-size: large;
+}
+
+.buyButton {
+   box-sizing: content-box;
+   background-color: antiquewhite;
+}
+
+.buyButtonC {
+    padding-left: 0.8em; 
+    padding-right: 0.8em; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10%;
+    font-size: medium;
+}
+
+/*lisa-Navbar ending*/ 
+
+
+
+
+/* Adnan's code.  */
+
+nav{
+    height: 20vh;
+}
+.section1{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/a55fce1271b62654b06fdb61c5840571/razer-blade-16-usp7-desktop.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+
+}
+
+.section2{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/8950f22077ba9b46d0e10eaaa1d183d5/new-age-campaign-hero.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+
+.section3{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/45149f834f1f08c5e4795aadca37c6b8/razer-blade-18-hero-desktop-v2.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+ /* .image{
+    background-repeat: no-repeat;
+	background-size: contain;
+    height: 60vh;
+    width: 100%;
+    
+}  */
+
+
+.container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container h2{
+    /* position: relative; */
+    color: #ffffff;
+    z-index: 999;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    
+}
+.container h3{
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    font-size: 1.75rem;
+    font-weight: 20;
+    width: auto;
+}
+
+
+
