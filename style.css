@@ -56,7 +56,7 @@ font-family: 'Times New Roman', Times, serif;
 #explore :hover{
     text-decoration: underline;
 }
-
+h2{3px;}
 
 #support {
     display: flex;
