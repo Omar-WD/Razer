@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
     background-color: black;
-  
 }
 
 /*lisa-Navbar*/ 
@@ -74,3 +80,79 @@
 }
 
 /*lisa-Navbar ending*/ 
+
+
+
+
+/* Adnan's code.  */
+
+nav{
+    height: 20vh;
+}
+.section1{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/a55fce1271b62654b06fdb61c5840571/razer-blade-16-usp7-desktop.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+
+}
+
+.section2{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/8950f22077ba9b46d0e10eaaa1d183d5/new-age-campaign-hero.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+
+.section3{
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/45149f834f1f08c5e4795aadca37c6b8/razer-blade-18-hero-desktop-v2.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+ /* .image{
+    background-repeat: no-repeat;
+	background-size: contain;
+    height: 60vh;
+    width: 100%;
+    
+}  */
+
+
+.container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container h2{
+    /* position: relative; */
+    color: #ffffff;
+    z-index: 999;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    
+}
+.container h3{
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    z-index: 999;
+    font-size: 1.75rem;
+    font-weight: 20;
+    width: auto;
+}
+
+
+
