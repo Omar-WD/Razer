@@ -550,21 +550,21 @@ section:nth-of-type(3){
 
 /*lisa navbar media-query*/ 
 @media screen and (max-width: 800px) {
+
     .navC {
-    display: none;
-   }
+        display: none;
+    } 
+    .razer16 {
+        padding-right: 50%;
+    }
 
-.razer16 {
-    padding-right: 50%;
+    .nav-Gray-Box {
+        height: 5em;
+        text-align: center;
+        font-weight: lighter;
+    }
+
 }
-
-.nav-Gray-Box {
-    height: 5em;
-    text-align: center;
-    font-weight: lighter;
-}
-
-
 /* Adnan's media query */
 
 
@@ -606,6 +606,3 @@ section:nth-of-type(3){
         
     }
 }
-
-    }   
-
