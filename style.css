@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      
+
 }
 
 
@@ -13,15 +13,153 @@ body{
     background-color: black;
 }
 
+footer{
+    margin-top: 10px;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #111111;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+#footerbox{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 76vw;
+height: 35vh;
+bottom: 7vh;
+border-bottom: 0.5px solid;
+border-color: gray;
+padding-bottom: 5vh;
+background-color: #111111;
+padding-top: 20px;
+}
+
+#footerbox a{
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    font-size: 12px;
+}
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff; 
+}
+#shop :hover{
+    text-decoration: underline;
+}
+
+#explore {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    /* justify-content: space-between; */
+}
+#explore a {
+    
+    padding-top: 13px;
+    /* justify-content: space-between; */
+}
+
+#explore :hover{
+    text-decoration: underline;
+}
+
+#support {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#support :hover{
+    text-decoration: underline;
+}
+#logobox {
+    font-size: 0.9vw;
+    color: #44d62c;
+
+}
+#logobox :hover{
+    text-decoration: underline;
+}
+
+#bottonbox {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 2.5%;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 1vh; */
+    width: 76vw;
+    font-size: 13px;
+    color: gray;   
+}
+
+#bottonbox a {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+#bottonbox :hover{
+    text-decoration: underline;
+}
+
+#footerlinks {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+/* padding: 1vw; */
+text-align: center;
+font-size: 13px;
+}
+#footerlinks a{
+
+    border-right: 3px solid gray;
+    padding: 0 7px 0 7px;
+}
+#footerlinks #cookielink {
+    border-right: 0px solid;
+}
+
+#country{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+#country span{
+    margin-right: 3px;
+    color: white;
+}
+#country a{
+    align-content: end;
+    padding-left:3px;
+    border-left: 3px solid gray;
+    color: gray;
+
+}
+
+
+
 /*lisa-Navbar*/ 
 
 .navG {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 3.5em;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(0, 0, 0);
     color: grey;
     font-size: medium;
@@ -36,14 +174,16 @@ body{
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid rgb(81, 255, 0);
-    height: 3em;
-    width: 100vw;
-    background-color: gray;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(75, 74, 74);
     color: white;
-    font-size: medium;
-    padding-left: 15%;
-    padding-right: 15%;
+    font-size:0.9em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+
 
 .nav-RAZER-BLADE-16 {
     display: flex;
@@ -53,15 +193,14 @@ body{
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 400;
     height: 4em;
     width: 100vw;
-    border-bottom: 1px solid white
 }
 
 .razer16 {
     padding-right: 60%;
-    font-size: large;
+    font-size: 0.9em;
 }
 
 .buyButton {
@@ -70,15 +209,31 @@ body{
 }
 
 .buyButtonC {
-    padding-left: 0.8em; 
-    padding-right: 0.8em; 
+    padding-left: 0.7em; 
+    padding-right: 0.7em; 
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
-    background-color: chartreuse;
+    background-color: rgb(60, 255, 0);
     color: black;
+    font-weight: bolder;
     border-radius: 10%;
-    font-size: medium;
+    font-size: 0.9em;
 }
+
+
+.navC:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(79, 243, 202); 
+    cursor: pointer;
+}
+
+
+
+
+
 
 /*lisa-Navbar ending*/ 
 
@@ -87,51 +242,62 @@ body{
 
 /* Adnan's code.  */
 
-nav{
-    height: 20vh;
-}
+
 .section1{
-
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/a55fce1271b62654b06fdb61c5840571/razer-blade-16-usp7-desktop.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-    height: 60vh;
-    width: 100%;
-
+    background: url("https://assets2.razerzone.com/images/pnx.assets/a55fce1271b62654b06fdb61c5840571/razer-blade-16-usp7-desktop.jpg") no-repeat center ; 
+	
 }
 
 .section2{
-
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/8950f22077ba9b46d0e10eaaa1d183d5/new-age-campaign-hero.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-    height: 60vh;
-    width: 100%;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/8950f22077ba9b46d0e10eaaa1d183d5/new-age-campaign-hero.jpg") no-repeat center ; 
+    
 }
-
 
 .section3{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/45149f834f1f08c5e4795aadca37c6b8/razer-blade-18-hero-desktop-v2.jpg") no-repeat center ; 
+	
+}
 
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/45149f834f1f08c5e4795aadca37c6b8/razer-blade-18-hero-desktop-v2.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
+.section4{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/433606e87c3512c0cd3b44faf9d114b2/razer-basilisk-v3-x-hyperspeed-hero-desktop.jpg") no-repeat center ; 
+	
+}
+
+.section5{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/7f74132b1ddc84185fc87dbd9016ac57/razer-enki-pro-automobili-lamborghini-hero-desktop.jpg") no-repeat center ; 
+	
+}
+
+
+.section6{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/364bd2434bb9f7eca125a87b920398d6/razer-blade-15-ch9-hero-desktop.jpg") no-repeat center ; 	
+}
+
+.section7{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/1a9efb073c4005e58032ee2d4eee1d4a/razer-adjustable-head-strap-system-facial-interface-for-meta-quest-2-desktop-v3.jpg") no-repeat center ; 	
+}
+
+.section8{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/9d62c1abff9014287154ad41465dbea6/razer-edge-hero.jpg") no-repeat center ; 
+
+}
+
+.section9{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/91a3ebb2c90cd7fb1f8a67b515d3da1f/razerstore-rewards-be-rewarded-banner-1920x400.jpg") no-repeat center ; 
+}
+
+.size{
+    background-size: cover;
     height: 60vh;
     width: 100%;
 }
-
- /* .image{
-    background-repeat: no-repeat;
-	background-size: contain;
-    height: 60vh;
-    width: 100%;
-    
-}  */
 
 
 .container{
     display: block;
     justify-content: center;
     text-align: center;
+    padding-top: 15px;
 }
 
 
@@ -139,7 +305,7 @@ nav{
     /* position: relative; */
     color: #ffffff;
     z-index: 999;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 1;
     letter-spacing: normal;
@@ -154,6 +320,7 @@ nav{
     font-weight: 20;
     width: auto;
 }
+
 
 /*Omar-WD*/ 
 footer{
@@ -324,6 +491,47 @@ footer{
     
     }
     
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,2fr);
+}
+
+section:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+section:nth-of-type(2){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+section:nth-of-type(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+
+
+/*lisa navbar media-query*/ 
+@media screen and (max-width: 800px) {
+    .navC {
+    display: none;
+   }
+
+.razer16 {
+    padding-right: 50%;
+}
+
+.nav-Gray-Box {
+    height: 5em;
+    text-align: center;
+    font-weight: lighter;
+}
+
 
             .fa {
                 padding: 0px;
