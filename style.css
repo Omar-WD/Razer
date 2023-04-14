@@ -117,12 +117,11 @@ padding-top: 20px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-/* padding: 1vw; */
+padding: 1vw;
 text-align: center;
 font-size: 13px;
 }
 #footerlinks a{
-
     border-right: 3px solid gray;
     padding: 0 7px 0 7px;
 }
@@ -153,7 +152,6 @@ font-size: 13px;
 /*lisa-Navbar*/ 
 
 .navG {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -565,4 +563,48 @@ section:nth-of-type(3){
 }
 
 
+
+/* Adnan's media query */
+
+
+@media screen and (max-width: 900px) {
+    .size{
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+       
+    }
+
+    .container h2{
+        /* position: relative; */
+        color: #ffffff;
+        z-index: 999;
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: none;
+        
+    }
+    .container h3{
+        color: rgb(255, 255, 255);
+        z-index: 999;
+        margin-top: 1%;
+        font-size: 1rem;
+        font-weight: 20;
+    }
+    
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .nav-Gray-Box {
+       
+        font-size: 0.7rem;
+        
+    }
+}
+
     }   
+
