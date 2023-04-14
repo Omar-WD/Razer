@@ -171,14 +171,16 @@ font-size: 13px;
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid rgb(81, 255, 0);
-    height: 3em;
-    width: 100vw;
-    background-color: gray;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(75, 74, 74);
     color: white;
-    font-size: medium;
-    padding-left: 15%;
-    padding-right: 15%;
+    font-size:0.9em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+
 
 .nav-RAZER-BLADE-16 {
     display: flex;
@@ -188,15 +190,14 @@ font-size: 13px;
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 400;
     height: 4em;
     width: 100vw;
-    border-bottom: 1px solid white
 }
 
 .razer16 {
     padding-right: 60%;
-    font-size: large;
+    font-size: 0.9em;
 }
 
 .buyButton {
@@ -205,15 +206,31 @@ font-size: 13px;
 }
 
 .buyButtonC {
-    padding-left: 0.8em; 
-    padding-right: 0.8em; 
+    padding-left: 0.7em; 
+    padding-right: 0.7em; 
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
-    background-color: chartreuse;
+    background-color: rgb(60, 255, 0);
     color: black;
+    font-weight: bolder;
     border-radius: 10%;
-    font-size: medium;
+    font-size: 0.9em;
 }
+
+
+.navC:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(79, 243, 202); 
+    cursor: pointer;
+}
+
+
+
+
+
 
 /*lisa-Navbar ending*/ 
 
@@ -320,6 +337,26 @@ section:nth-of-type(2){
 section:nth-of-type(3){
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+
+
+
+
+/*lisa navbar media-query*/ 
+@media screen and (max-width: 800px) {
+    .navC {
+    display: none;
+   }
+
+.razer16 {
+    padding-right: 50%;
+}
+
+.nav-Gray-Box {
+    height: 5em;
+    text-align: center;
+    font-weight: lighter;
 }
 
 
