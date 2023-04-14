@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -171,14 +172,16 @@ font-size: 13px;
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid rgb(81, 255, 0);
-    height: 3em;
-    width: 100vw;
-    background-color: gray;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(75, 74, 74);
     color: white;
-    font-size: medium;
-    padding-left: 15%;
-    padding-right: 15%;
+    font-size:0.9em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+
 
 .nav-RAZER-BLADE-16 {
     display: flex;
@@ -188,15 +191,14 @@ font-size: 13px;
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 400;
     height: 4em;
     width: 100vw;
-    border-bottom: 1px solid white
 }
 
 .razer16 {
     padding-right: 60%;
-    font-size: large;
+    font-size: 0.9em;
 }
 
 .buyButton {
@@ -205,15 +207,31 @@ font-size: 13px;
 }
 
 .buyButtonC {
-    padding-left: 0.8em; 
-    padding-right: 0.8em; 
+    padding-left: 0.7em; 
+    padding-right: 0.7em; 
     padding-top: 0.5em; 
     padding-bottom: 0.5em; 
-    background-color: chartreuse;
+    background-color: rgb(60, 255, 0);
     color: black;
+    font-weight: bolder;
     border-radius: 10%;
-    font-size: medium;
+    font-size: 0.9em;
 }
+
+
+.navC:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(79, 243, 202); 
+    cursor: pointer;
+}
+
+
+
+
+
 
 /*lisa-Navbar ending*/ 
 
@@ -301,6 +319,176 @@ font-size: 13px;
     width: auto;
 }
 
+
+/*Omar-WD*/ 
+footer{
+    height: 47vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #111111;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    border-top: 4px double lightgray;
+    }
+    #footerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76vw;
+    height: 35vh;
+    bottom: 7vh;
+    border-bottom: 0.5px solid;
+    border-color: gray;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #111111;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    #footerbox a{
+        color: gray;
+        text-decoration: none;
+        display: flexbox;
+        font-size: 12px;
+        font-family: roboto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    #shop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #ffffff; 
+        margin: 0px 2px;
+        width: 40vw;
+    }
+    #shop :hover{
+        text-decoration: underline;
+        font-size:15px;
+        color: white;
+    }
+    #shop #hd1 {
+        text-decoration: none;
+    }
+
+    #hd1 :hover {
+        text-decoration: none;
+    }
+    #explore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 2px;
+        width: 40vw;
+       
+    }
+    #explore :hover{
+        text-decoration: underline;
+        font-size:15px;
+        color: white;
+    }
+    #explore #hd2{
+        text-decoration: none;
+    }
+
+    #hd2 :hover {
+        text-decoration: none;
+    }
+    
+    #support {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 2px;
+        width: 40vw;
+    }
+    #support :hover{
+        text-decoration: underline;
+        font-size:15px;
+        color: white;
+    }
+
+    #logobox {
+        font-size: 2vw;
+        color: green;
+        display:flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    #support #hd3 {
+        text-decoration: none;
+    }
+
+    #hd3 :hover {
+        text-decoration: none;
+    }
+    #bottonbox {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 4.5%;
+        color: aliceblue;
+        justify-content: space-between;
+        align-items: center;
+        height: 1.5vh;
+        width: 76vw;
+        font-size: 70%;
+        color: gray;   
+    }
+    
+    #bottonbox a {
+        color: gray;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    #bottonbox :hover{
+        text-decoration: underline;
+        text-decoration: underline;
+        color: white;
+    }
+    
+    #footerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    text-align: center;
+    }
+    #footerlinks a{
+    
+        border-right: 3px solid gray;
+        padding: 0 7px 0 7px;
+    }
+    #footerlinks #cookielink {
+        border-right: 0px solid;
+    }
+    
+    #country{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        
+    }
+    #country span{
+        margin-right: 3px;
+        color: white;
+        font-size: 100%;
+    }
+    #country a{
+        align-content: end;
+        padding-left:3px;
+        border-left: 3px solid gray;
+        color: gray;
+    
+    }
+    
 .grid-container{
     display: grid;
     gap: 10px;
@@ -321,6 +509,59 @@ section:nth-of-type(3){
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+  .fa {
+                padding: 0px;
+                font-size: 30px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                border-radius: 20%;
+                margin: 3px;
+                margin-left: 5vw;
+              }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+        }
+
+
+
+
+/*lisa navbar media-query*/ 
+@media screen and (max-width: 800px) {
+    .navC {
+    display: none;
+   }
+
+.razer16 {
+    padding-right: 50%;
+}
+
+.nav-Gray-Box {
+    height: 5em;
+    text-align: center;
+    font-weight: lighter;
+}
+
 
 
 /* Adnan's media query */
@@ -364,3 +605,6 @@ section:nth-of-type(3){
         
     }
 }
+
+    }   
+
