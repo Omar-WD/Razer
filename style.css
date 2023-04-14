@@ -512,28 +512,7 @@ section:nth-of-type(3){
     grid-column-end: 3;
 }
 
-
-
-
-
-/*lisa navbar media-query*/ 
-@media screen and (max-width: 800px) {
-    .navC {
-    display: none;
-   }
-
-.razer16 {
-    padding-right: 50%;
-}
-
-.nav-Gray-Box {
-    height: 5em;
-    text-align: center;
-    font-weight: lighter;
-}
-
-
-            .fa {
+  .fa {
                 padding: 0px;
                 font-size: 30px;
                 width: 50px;
@@ -565,5 +544,25 @@ section:nth-of-type(3){
         background: #dd4b39;
         color: white;
         }
+
+
+
+
+/*lisa navbar media-query*/ 
+@media screen and (max-width: 800px) {
+    .navC {
+    display: none;
+   }
+
+.razer16 {
+    padding-right: 50%;
+}
+
+.nav-Gray-Box {
+    height: 5em;
+    text-align: center;
+    font-weight: lighter;
+}
+
 
     }   
